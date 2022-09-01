@@ -18,7 +18,7 @@ CHANCHITO =[
 #Radiobutton(root, text='opcion 1', variable=r, value=1).pack()
 #Radiobutton(root, text='opcion 2', variable=r, value=2).pack()
 
-L =label(root, textvariable=r)
-L.Pack()
+l = Label(root, textvariable=r)
+l.pack()
 
 root.mainloop()
