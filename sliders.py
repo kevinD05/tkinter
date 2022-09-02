@@ -13,7 +13,7 @@ horizontal.pack()
 def enviar():
     hor = horizontal.get()
     ver = vertical.get()
-    print(hor + '' + ver) 
+    print(str (hor) + '' + str(ver)) 
 
 btn = Button(root, text='enviar', command=enviar)
 btn.pack()

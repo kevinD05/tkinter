@@ -16,7 +16,7 @@ root.title("hello word")
     #l2.pack()
     #top.mainloop()
 
-
+#solucion 2 
 def open():
     global img
     img =ImageTk.PhotoImage(Image.open('one piece.jpg'))
